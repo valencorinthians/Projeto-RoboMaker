@@ -4,6 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto RoboMaker</title>
+    <style>
+        :root{
+            --bg:#f5f7fb;
+            --card:#ffffff;
+            --accent:#2a9df4;
+            --muted:#666;
+            --radius:8px;
+        }
+        *{box-sizing:border-box}
+        body{
+            font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+            margin:0;
+            background:var(--bg);
+            color:#222;
+            line-height:1.45;
+        }
+        header{
+            background:var(--accent);
+            color:#fff;
+            padding:20px 12px;
+            text-align:center;
+        }
+        header h1{margin:0 0 8px 0;font-size:1.6rem}
+        nav ul{list-style:none;margin:0;padding:0;display:flex;gap:12px;justify-content:center}
+        nav a{color:#fff;text-decoration:none;padding:6px 10px;border-radius:6px;display:inline-block}
+        nav a:hover{background:rgba(255,255,255,0.12)}
+        main{max-width:1000px;margin:20px auto;padding:0 12px}
+        section{margin:18px 0}
+        section h2{margin:0 0 12px 0;color:var(--accent);border-bottom:2px solid rgba(0,0,0,0.04);padding-bottom:8px}
+        #Categorias ul{display:flex;flex-wrap:wrap;gap:10px;padding:0}
+        #Categorias li{background:var(--card);padding:8px 12px;border-radius:6px;box-shadow:0 1px 3px rgba(0,0,0,0.05)}
+        #Produtos{display:block}
+        #Produtos{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+        #Produtos article{background:var(--card);padding:14px;border-radius:var(--radius);box-shadow:0 6px 18px rgba(23,33,69,0.06)}
+        #Produtos h3{margin-top:0}
+        #Produtos img{width:100%;height:auto;border-radius:6px;display:block;margin:8px 0}
+        table{width:100%;border-collapse:collapse;background:var(--card);border-radius:6px;overflow:hidden}
+        table th, table td{padding:10px;border-bottom:1px solid #eee;text-align:left}
+        table thead{background:linear-gradient(90deg,rgba(42,157,244,0.08),transparent)}
+        footer{background:#111827;color:#fff;padding:18px 12px;margin-top:20px;border-top:4px solid rgba(255,255,255,0.03);text-align:center}
+        footer img{width:40px;height:auto;margin:6px}
+        @media (max-width:520px){
+            nav ul{flex-direction:column}
+            header{padding:14px}
+            main{padding:0 10px}
+        }
+    </style>
 </head>
 <body>
     <!--Cabeçalho-->
@@ -53,7 +100,7 @@
             <article>
                 <h3>Sensores</h3>
                 <img 
-                src="senores.jpg" 
+                src="sensores.jpg" 
                 alt="Sensores"
                 width="300"
                 >
@@ -87,9 +134,9 @@
             </article>
                 
             <article>
-<h3>Estrutura de montagem</h3>
+                <h3>Estrutura de montagem</h3>
                 <img 
-                src="estrutura .jpg" 
+                src="estrutura de montagem.jpg" 
                 alt="Estrutura de montagem"
                 width="300"
                 >
@@ -141,9 +188,10 @@
             <p>
                 &copy; 2026 Valentina Alves
             </p>
-            <img src="facebook logo.png" alt="facebook logo" width="100">
-            <img src="instagram logo.png" alt="instagram logo" width="100">
-            <img src="youtube logo.png" alt="youtube" width="100">
+            <img src="Facebook.png" alt="facebook logo" width="100">
+            <img src="instagram.png" alt="instagram logo" width="100">
+            <img src="youtube.png
+            " alt="youtube" width="100">
 
         </footer>
 
